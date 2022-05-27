@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Header from '../components/Header'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Header from '../components/Header';
 
 const Home: NextPage = () => {
   return (
@@ -8,10 +8,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Reddit Clone</title>
       </Head>
-
-      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
